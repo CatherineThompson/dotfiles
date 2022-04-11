@@ -21,15 +21,15 @@ source $HOME/.ct-alias
 # weave configuration
 export GOPRIVATE=weavelab.xyz/*
 
-path+=('$HOME/go/bin')
-path+=('/Applications/Pritunl.app/Contents/Resources')
+path+=("$HOME/go/bin")
+# path+=('/Applications/Pritunl.app/Contents/Resources')
 export PATH
 
 # The next line updates PATH for the Google Cloud SDK.
-if [ -f '$HOME/google-cloud-sdk/path.zsh.inc' ]; then . '$HOME/google-cloud-sdk/path.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/path.zsh.inc" ]; then . "$HOME/google-cloud-sdk/path.zsh.inc"; fi
 
 # The next line enables shell command completion for gcloud.
-if [ -f '$HOME/google-cloud-sdk/completion.zsh.inc' ]; then . '$HOME/google-cloud-sdk/completion.zsh.inc'; fi
+if [ -f "$HOME/google-cloud-sdk/completion.zsh.inc" ]; then . "$HOME/google-cloud-sdk/completion.zsh.inc"; fi
 
 # starship
 eval "$(starship init zsh)"
