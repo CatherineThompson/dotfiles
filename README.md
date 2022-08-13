@@ -10,8 +10,8 @@ ln -s ~/dotfiles/.vimrc  ~/.vimrc
 vi .dotconfig
 
 ...
-source $HOME/.ct-alias
-source $HOME/.starship
+source $DOTFILES/.ct-alias
+source $DOTFILES/.starship
 ...
 
 ```
