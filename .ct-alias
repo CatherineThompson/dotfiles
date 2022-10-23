@@ -1,5 +1,5 @@
-alias cb="pbcopy"
 alias json="python -m json.tool"
 alias src="cd ~/src"
 alias ds="docker"
-alias decode="echo $(pbpaste) | base64 -d"
+alias dc="docker-compose"
+
