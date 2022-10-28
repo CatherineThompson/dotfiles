@@ -5,15 +5,15 @@
 add_newline = true
 
 format = """
+$cmd_duration\
+$line_break\
 $username\
 $hostname\
 $directory\
 $git_branch\
-$git_commit\
-$git_state\
 $git_metrics\
-$git_status\
-$cmd_duration\
+$line_break\
+$kubernetes\
 $line_break\
 $character"""
 
@@ -28,6 +28,10 @@ added_style = "bold green"
 deleted_style = "bold red"
 only_nonzero_diffs = false
 format = "([+$added]($added_style) )([-$deleted]($deleted_style) )"
+disabled = false
+
+[kubernetes]
+format = '[$symbol$context( \($namespace\))]($style) '
 disabled = false
 
 # Disable the package module, hiding it from the prompt completely
