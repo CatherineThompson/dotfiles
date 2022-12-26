@@ -1,0 +1,9 @@
+{
+  "terminal.external.osxExec": "Alacritty.app",
+  "terminal.integrated.allowMnemonics": true,
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

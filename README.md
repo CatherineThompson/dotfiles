@@ -5,6 +5,8 @@
 ln -s ~/dotfiles/.zshrc  ~/.zshrc
 ln -s ~/dotfiles/.vimrc  ~/.vimrc
 ln -s ~/dotfiles/alacritty ~/.config/alacritty
+ln -s ~/dotfiles/vscode/keybindings.json ~/Library/Application\ Support/Code/User/keybindings.json
+ln -s ~/dotfiles/vscode/settings.json ~/Library/Application\ Support/Code/User/settings.json
 
 
 # add a .dotconfig file sourcing each dotfile needed
