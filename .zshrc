@@ -8,13 +8,13 @@ export DOTFILES="$HOME/dotfiles"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-	git
-	zsh-autosuggestions
-	web-search
-	dirhistory
 	vi-mode
+	zsh-autosuggestions
+	zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
 source $DOTFILES/.dotconfig
 
+# vi-mode settings
+VI_MODE_SET_CURSOR=true

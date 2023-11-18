@@ -12,4 +12,3 @@ set ignorecase
 set incsearch
 set noundofile
 
-

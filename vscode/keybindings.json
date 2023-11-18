@@ -1,12 +1,22 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key":     "ctrl+`",
+        "key": "ctrl+`",
         "command": "workbench.action.terminal.focus"
     },
     {
-        "key":     "ctrl+`",
+        "key": "ctrl+`",
         "command": "workbench.action.focusActiveEditorGroup",
-        "when":    "terminalFocus"
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift",
+        "command": "vscode-postgres.runQuery",
+        "when": "editorLangId == 'postgres'"
+    },
+    {
+        "key": "f5",
+        "command": "-vscode-postgres.runQuery",
+        "when": "editorLangId == 'postgres'"
     }
 ]
