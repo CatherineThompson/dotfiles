@@ -1,0 +1,7 @@
+[credential]
+	helper = store
+[user]
+	name = CatherineThompson
+	email = cathythompson0915@gmail.com
+[core]
+	editor = vim
