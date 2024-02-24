@@ -5,3 +5,5 @@
 	email = cathythompson0915@gmail.com
 [core]
 	editor = vim
+[push]
+	autoSetupRemote = true
