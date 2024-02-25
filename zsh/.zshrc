@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
-export DOTFILES="$HOME/dotfiles"
+export DOTFILES="$HOME/src/dotfiles"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
