@@ -33,6 +33,7 @@ brew install tmux
 brew install go
 
 brew install docker
+brew install docker-compose
 brew install colima
 brew services start colima
 ```
