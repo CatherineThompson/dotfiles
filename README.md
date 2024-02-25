@@ -19,7 +19,7 @@ Setup the shell as described in the zsh [README.md](zsh/README.md).
 
 # Homebrew
 
-```
+```sh
 brew install --cask alacritty
 brew install --cask visual-studio-code
 brew install --cask fork
