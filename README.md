@@ -19,21 +19,14 @@ Setup the shell as described in the zsh [README.md](zsh/README.md).
 
 # Homebrew
 
+All packages are declared in the [Brewfile](Brewfile). Install them with:
+
 ```sh
-brew install --cask alacritty
-brew install --cask visual-studio-code
-brew install --cask fork
+brew bundle install --file=Brewfile
+```
 
-brew tap homebrew/cask-fonts
-brew install --cask font-hack-nerd-font
+Verify everything is installed:
 
-brew install starship
-brew install tmux
-
-brew install go
-
-brew install docker
-brew install docker-compose
-brew install colima
-brew services start colima
+```sh
+brew bundle check --file=Brewfile
 ```
