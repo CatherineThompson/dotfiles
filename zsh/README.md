@@ -1,8 +1,4 @@
-# zsh Setup
-
-```sh
-ln -s ~/src/dotfiles/zsh/.zshrc  ~/.zshrc
-```
+# zsh
 
 # Oh My Zsh!
 

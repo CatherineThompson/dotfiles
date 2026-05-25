@@ -1,8 +1,4 @@
-# VIM Setup
-
-```sh
-ln -s ~/dotfiles/vim/.vimrc  ~/.vimrc
-```
+# VIM
 
 ## Plugins
 https://github.com/easymotion/vim-easymotion

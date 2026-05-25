@@ -1,5 +1,17 @@
 # Dotfiles
 
+# Symlinks
+
+Symlinks are managed with [GNU Stow](https://www.gnu.org/software/stow/). From
+the repo root:
+
+```sh
+stow vim git tmux zsh alacritty ghostty
+```
+
+`starship`, `postgres`, `tailscale`, and `golang` are sourced in place from
+`.dotconfig` and are not stowed.
+
 # Config
 
 Add a `.dotconfig` file to source the dotfiles.
